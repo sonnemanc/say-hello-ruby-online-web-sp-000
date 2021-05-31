@@ -1,3 +1,3 @@
-def say_hello
-  puts "Hello Amy!"
+def say_hello(name = Amy)
+  puts "Hello, #{name}"
 end
